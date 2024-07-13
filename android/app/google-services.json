@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057164001270",
+    "project_id": "galleryapp-bfd7c",
+    "storage_bucket": "galleryapp-bfd7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057164001270:android:4e1124e9ea816c60e851d7",
+        "android_client_info": {
+          "package_name": "com.example.gallery_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Ix0fdXLCkdZ9X-gCUiN_z0Fms_Q8rgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

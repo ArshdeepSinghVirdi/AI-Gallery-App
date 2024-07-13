@@ -1,0 +1,72 @@
+name: gallery_app
+description: "AI Gallery App."
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-180.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  rive: ^0.13.8
+  flutter_svg: ^2.0.9
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  google_sign_in: ^6.2.1
+  the_apple_sign_in: ^1.1.1
+  photo_gallery: ^2.2.1
+  permission_handler: ^11.3.1
+  transparent_image: ^2.0.1
+  flutter_signature_pad: ^3.0.1
+  http: ^1.2.1
+  image: ^4.2.0
+  flutter_inappwebview: ^6.0.0
+  flutter_animate: ^4.5.0
+  image_editor_plus: ^1.0.6
+  cloud_firestore: ^5.0.2
+  image_gallery_saver: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/avaters/
+     - assets/Backgrounds/
+     - assets/icons/
+     - assets/RiveAssets/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Intel
+      fonts:
+        - asset: assets/Fonts/Inter-Regular.ttf
+        - asset: assets/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/Fonts/Poppins-Bold.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
