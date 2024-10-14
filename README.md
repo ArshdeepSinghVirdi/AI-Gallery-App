@@ -1,4 +1,4 @@
-# gallery_app
+# AI Gallery App
 
 A new Flutter project.
 
